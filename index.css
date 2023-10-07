@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1523478016374-2a27cc521718?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2008&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-block: 2em
+    
+}
+
+.container {
+    width: min(21rem, 98%);
+    border-radius: 16px;
+    background-color: rgba(0,0,0, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 2em;
+}
+
+.border {
+    border: 5px solid #ffb02e;
+    box-shadow: 3px 3px 15px #f8f401;
+}
+
+
+h1 {
+    margin-bottom: 1.25em;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 0.6em;
+}
+
+h1::after{
+    content:"";
+    display: block;
+    width: 8.3rem;
+    height: 0.7rem;
+    background-color: #ffb02e;
+    margin: -10px 53px;
+}
+
+h4 {
+    text-align: center;
+    margin-block: 3em;
+   
+}
+
+.subtitle{
+    margin-top: 0;
+}
+
+span {
+    margin-bottom: 0;
+    color: #ffb02e;
+    font-size: 0.8rem;
+}
+
+button {
+    border: none;
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-top: 2em;
+    background-color: #ffb02e;
+    cursor: pointer;
+    margin-top: 0.25em;
+}
+
